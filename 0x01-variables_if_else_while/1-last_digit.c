@@ -1,30 +1,30 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
  * main - Entry
- * Return: Always 0
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int n;
-	int a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d is", n)
-	a = n % 10;
-	if (a > 5)
-	{
-		printf("%d and is greater than 5\n", n);
-	}
-	else if ((a < 6) && (a < 0))
-	{
-		printf("%d is %d and is 0\n", n);
-	}
-	else
-	{
-		printf("%d and is less than 6 and not 0\n", n);
-	}
+	/* your code goes there */
+
+	int m;
+
+	a = n % 10
+	if (m > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
+	if (m == 0)
+		printf("Last digit of %d is %d and is 0\n", n, m);
+	if (m < 6 && m != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	return (0);
 }
