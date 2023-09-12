@@ -1,8 +1,7 @@
+#include <stdio.h>
 /**
  * main - prints all possible combinations of two two-digit
- *
  * Return: Always 0.
- *
  */
 
 int main(void)
@@ -10,9 +9,9 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 0; a <= 98; a++)
+	for (a = 0 ; a <= 98 ; a++)
 	{
-		for (b = a + 1; b <= 99; b++)
+		for (b = a + 1 ; b <= 99 ; b++)
 		{
 			putchar((a / 10) + '0');
 			putchar((a % 10) + '0');
