@@ -19,8 +19,8 @@ int main(void)
 		if (next % 2 == 0)
 			sum = sum + next;
 		term1 = term2;
-		term2 = term1;
+		term2 = next;
 	}
-	printf("%d/n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
