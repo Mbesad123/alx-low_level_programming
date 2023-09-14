@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - a function that al natural numbers
+ * print_to_98 - a function that al natural numbers form n to 98
  * @n: parameter
  * Return: i
  */
